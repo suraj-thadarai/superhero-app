@@ -14,7 +14,7 @@ function App() {
 
   return (
     <div className="App bg-gray-400">
-      <header className='flex flex-col items-center bg-gray-400 my-4'>
+      <header className='flex flex-col items-center bg-gray-400'>
         {/* <h1 className='text-6xl'>SuperHero</h1> */}
         <img className="w-1/2 my-2" src={superheroesAndVillains} alt='header logo' />
         <SearchInput className="my-4" setSearchSuperHero={setSearchSuperHero}/>
